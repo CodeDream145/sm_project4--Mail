@@ -1,0 +1,67 @@
+textarea {
+    min-height: 400px;
+}
+
+
+#top_error {
+    display: none;
+}
+
+#sent_messsage{
+    display: none;
+}
+
+#invalid_mail{
+    color: red;
+    text-align: center;
+}
+
+.email_box{
+    border: 1px solid black;
+    display: flex;
+    gap: 5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.email_box:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    border-color: rgb(80, 80, 80);
+}
+
+#e_mail{
+    font-weight: bold;
+    width: 280px;
+    padding-left: 30px;
+}
+
+#e_sub{
+    font-weight: 500;
+    width: 470px;
+}
+
+#e_time{
+    color: rgba(0, 0, 0, 0.592);
+}
+
+#bold_one{
+    font-weight: bold;
+    font-size: larger;
+}
+
+#lit_thick{
+    font-weight: 400;
+    font-size: large;
+}
+
+#mail_body{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#mail_buttons{
+    display: flex;
+    gap: 1em;
+}
